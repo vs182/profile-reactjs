@@ -19,11 +19,11 @@ export default function Portfolio() {
     },
     {
       id: "web",
-      title: "Web App",
+      title: "Web Apps",
     },
     {
       id: "mobile",
-      title: "Web App",
+      title: "Web sites",
     },
     {
       id: "design",

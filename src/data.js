@@ -160,45 +160,31 @@ export const AllPortfolio = [
       title: "Profile",
       img:
       "https://drive.google.com/uc?export=view&id=1valuEkXFmY8fRLGU1oDeW4SzlCx5ilm0",
-      url:"https://www.figma.com/file/9yoMYrc5p3qQDpQP1Yggq6/Untitled"
+      url:"https://www.figma.com/file/9yoMYrc5p3qQDpQP1Yggq6/Untitled",
+
     },
   ];
   
   export const DocsPortfolio = [
     {
       id: 1,
-      title: "Content Social Media App",
+      title: "Eidetic-Figma",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://userguiding.com/wp-content/uploads/2021/02/best-figma-plugings.png",
+        url:"https://ambloxx-ionic.blogspot.com/2022/03/eidetic-figma.html"
     },
     {
       id: 2,
-      title: "Content Rampa UI Design",
+      title: "Github",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://foundations.projectpythia.org/_images/GitHub-logo.png",
+        url:"https://ambloxx-ionic.blogspot.com/2022/03/github.html"
     },
     {
       id: 3,
-      title: "Content E-commerce Web Design",
+      title: "Netlify",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Content Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Content Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://mma.prnewswire.com/media/1099201/Netlify_Logo.jpg?p=facebook",
+        url:"https://ambloxx-ionic.blogspot.com/2022/03/is-awesome-and-perfect-site-for-hosting.html"
     },
   ];

@@ -1,5 +1,9 @@
 import { useState } from "react";
 import "./works.scss";
+import socket from './videos/socket.mp4';
+import weather from './videos/weather.mp4';
+import notes from './videos/notes.mp4';
+
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -12,6 +16,7 @@ export default function Works() {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       img:
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        video: notes
     },
     {
       id: "2",
@@ -21,6 +26,7 @@ export default function Works() {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
         "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        video: socket
     },
     {
       id: "3",
@@ -30,6 +36,7 @@ export default function Works() {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
         "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        video: weather
     },
   ];
 
@@ -48,22 +55,10 @@ export default function Works() {
         {data.map((d) => (
           <div className="container">
             <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div>
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
-                  <span>Projects</span>
-                </div>
-              </div>
-              <div className="right">
-                <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
-                />
-              </div>
+            <video width="100%" height="100%"  autoplay="true" controls="controls">
+            <source src={d.video} type="video/mp4" />
+            <img src={d.img} title="Your browser does not support the <video> tag" />
+            </video>
             </div>
           </div>
         ))}

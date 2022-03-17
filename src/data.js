@@ -1,154 +1,170 @@
-export const featuredPortfolio = [
+export const AllPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "Notes App (Nodejs-Mysql)",
+      img:       "https://drive.google.com/uc?export=view&id=1Pze7ew31xAELOk0fBq0LYRVYEt6kuxTF",
+      url: "https://github.com/vs182/notes-nodejs.git"
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Weather App (Reactjs)",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+      "https://drive.google.com/uc?export=view&id=1ie08UX4_haZBaGav5vPVChN23pcKdNr6",
+      url:"https://weatherzoho.netlify.app/"
+
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+      title: "Chat App (Socket.js)",
+      img:       "https://drive.google.com/uc?export=view&id=1CwtBhgqB5DkQR3VZ1JeGg1lvFTmNr9kS",
+      url:"https://github.com/vs182/chat-socket.io.git"
+
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "Online Notepad",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+      "https://drive.google.com/uc?export=view&id=1GafYZeKKnjKLKNDRfrXG7hIwKIO16BQE",
+      url:"https://onlinenotepadzoho.netlify.app/"
     },
     {
       id: 5,
-      title: "Hero Web Design",
-      img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "Learning App (Nodejs-Mysql)",
+      img:       "https://drive.google.com/uc?export=view&id=1FPlGJCAcovyVwwuXlWQA7v4Wi_Voxazh",
+      url:"https://github.com/vs182/learn-app.git"
+
     },
     {
       id: 6,
-      title: "Banking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+      title: "Tripy (Vanilajs)",
+      img:       "https://drive.google.com/uc?export=view&id=1AAbxFZYolraDsGq7OD7dkVG6yLR2bXG4",
+      url:"https://github.com/vs182/Tripy-final.git"
+
     },
   ];
   
   export const webPortfolio = [
     {
       id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "Notes App (Nodejs-Mysql)",
+      img:       "https://drive.google.com/uc?export=view&id=1Pze7ew31xAELOk0fBq0LYRVYEt6kuxTF",
+      url: "https://github.com/vs182/notes-nodejs.git"
+
+
     },
     {
       id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+      title: "Chat App (Socket.js)",
+      img:       "https://drive.google.com/uc?export=view&id=1CwtBhgqB5DkQR3VZ1JeGg1lvFTmNr9kS",
+      url: "https://github.com/vs182/chat-socket.io.git"
+
     },
     {
       id: 3,
-      title: "Web E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
+      title: "Learning App (Nodejs-Mysql)",
+      img:       "https://drive.google.com/uc?export=view&id=1FPlGJCAcovyVwwuXlWQA7v4Wi_Voxazh",
+      url:"https://github.com/vs182/learn-app.git"
+
     },
     {
       id: 4,
-      title: "Web Relax App",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
+      title: "Memory Game (Vanilajs)",
+      img:       "https://drive.google.com/uc?export=view&id=1cp38OA2bOJK0JYLDamIcPpbjqSm3JudE",
+      url: "https://memorygamezoho.netlify.app/"
+
     },
     {
       id: 5,
-      title: "Web Design",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Web Banking App",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+      title: "Tripy (Vanilajs)",
+      img:       "https://drive.google.com/uc?export=view&id=1AAbxFZYolraDsGq7OD7dkVG6yLR2bXG4",
+      url:"https://github.com/vs182/Tripy-final.git"
+
     },
   ];
   
   export const mobilePortfolio = [
     {
       id: 1,
-      title: "Mobile Social Media App",
+      title: "Weather App (Reactjs)",
       img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+      "https://drive.google.com/uc?export=view&id=1ie08UX4_haZBaGav5vPVChN23pcKdNr6",
+      url:"https://weatherzoho.netlify.app/"
     },
     {
       id: 2,
-      title: "Mobile Rampa UI Design",
+      title: "Online Notepad",
       img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
+      "https://drive.google.com/uc?export=view&id=1GafYZeKKnjKLKNDRfrXG7hIwKIO16BQE",
+      url: "https://onlinenotepadzoho.netlify.app/"
     },
     {
       id: 3,
-      title: "Mobile E-commerce Design",
+      title: "Card Gambling Game",
       img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
+      "https://drive.google.com/uc?export=view&id=1hGIL2nPJqEo8wvfvbmIv-HN66txGtRkp",
+      url: "https://github.com/vs182/card-game.git"
     },
     {
       id: 4,
-      title: "Mobile Relax App",
+      title: "E-commerce",
       img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
+      "https://drive.google.com/uc?export=view&id=16TJRjjWQ59beHOFay5Z4Eg7MagsT22B0",
+      url:"https://github.com/vs182/dashboard.git"
     },
     {
       id: 5,
-      title: "Mobile Hero Design",
+      title: "Type Swift",
       img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Mobile Banking App",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
+      "https://drive.google.com/uc?export=view&id=1ONRwpAnJGYO86sNrzX_KiMKyWWk4r8Dj",  
+      url : "https://github.com/vs182/keyboard.git"  },
   ];
   
   export const designPortfolio = [
     {
       id: 1,
-      title: "Design Social Media App",
+      title: "Card Gambling Game",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://drive.google.com/uc?export=view&id=1PYY4fje6X-qF_siNvjCokOnje9ZgwZRn",
+      url:"https://www.figma.com/file/q1Rpm39FBEU7WbxKRNYQN8/Portfollio"
     },
     {
       id: 2,
-      title: "Design Rampa UI Design",
+      title: "E-commerce UI",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://drive.google.com/uc?export=view&id=1MIxtH3Ov3Qlc9a87ABj6dgq3SfnPOUe-",
+      url:"https://www.figma.com/file/ZEEVxfJRRpztoC2dWqhklP/React-Components"
     },
     {
       id: 3,
-      title: "Design E-commerce Web Design",
+      title: "Learning App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://drive.google.com/uc?export=view&id=1OGptJsN7WMpbf3PZab6dQ0UP-3MUd7_j",
+      url:"https://www.figma.com/file/zZBX6wxxxVzw3DrrekMD52/figma"
     },
     {
       id: 4,
-      title: "Design Relax Mobile App",
+      title: "Landing Page",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://drive.google.com/uc?export=view&id=1juzs1cpcIILSOfMHHLgI_eRviIr9TWFA",
+      url:"https://www.figma.com/proto/Ct8mOVefztAGHGRGQflGFB/landing?node-id=0%3A1"
     },
     {
       id: 5,
-      title: "Design Keser Web Design",
+      title: "Logo",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://drive.google.com/uc?export=view&id=1Asa-fsiCoQdOJl0lhqGHPgmdPXhBfQXN",
+      url:"https://www.figma.com/file/N2X1G3h8SmM74orXdvaw4T/Untitled"
     },
     {
       id: 6,
-      title: "Design Banking App",
+      title: "Profile",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      "https://drive.google.com/uc?export=view&id=1valuEkXFmY8fRLGU1oDeW4SzlCx5ilm0",
+      url:"https://www.figma.com/file/9yoMYrc5p3qQDpQP1Yggq6/Untitled"
     },
   ];
   
-  export const contentPortfolio = [
+  export const DocsPortfolio = [
     {
       id: 1,
       title: "Content Social Media App",

@@ -16,8 +16,6 @@
     .imgContainer {
       width: 700px;
       height: 700px;
-      background: rgb(236,251,63);
-      background: radial-gradient(circle, rgba(236,251,63,1) 0%, rgba(252,70,70,1) 100%);       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -72,7 +70,7 @@
 
         span {
           font-size: inherit;
-          color: rgba(252,70,70,1);
+          color: blue
         }
 
         .ityped-cursor {
